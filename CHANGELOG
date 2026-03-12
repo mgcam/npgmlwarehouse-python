@@ -3,6 +3,22 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+* Accessors for useq_wafer fields via useq_product_metrics
+
+### Changed
+
+* Moved db connection setup and teardown from test setup to a `npgmlwarehouse.db.utils` to ease
+  reuse
+* Updated ORM mappings
+
+### Fixed
+
+* __init__ converted to __init__.py
+
 ## [0.3.0]
 
 ### Added

@@ -15,7 +15,7 @@ Currently, record creation from this code is performed only on the iRODS locatio
 `seq_product_irods_locations`. We allow for vendor-specific `sqlalchemy` code where trying
 to be vendor-agnostic would result in implementing a large volume of custom code and tests.
 
-This ORM has been auto-generated with [`sqlacodegen 3.1.1`](https://pypi.org/project/sqlacodegen/3.1.1/)
+This ORM has been auto-generated with [`sqlacodegen 4.0.2`](https://pypi.org/project/sqlacodegen/4.0.2/) with post-generation manual modification to deal with awkward bits.
 
 ```bash
 sqlacodegen --generator declarative mysql+pymysql://user:pass@host:port/dbname > src/npgmlwarehouse/db/schema.py
