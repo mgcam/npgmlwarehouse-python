@@ -48,4 +48,4 @@ def get_wafer_content_by_lims_id(
     query = (select(UseqWafer).join(Sample).join(Study)).where(
         UseqWafer.id_wafer_lims == id_wafer_lims
     )
-    return list(session.execute(query).scalars().all())
+    return list(session.scalars(query).all())
