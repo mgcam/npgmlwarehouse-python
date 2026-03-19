@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * Moved db connection setup and teardown from test setup to a `npgmlwarehouse.db.utils` to ease
   reuse
 * Updated ORM mappings
+* Upsert functionality of iRODS collections into iRODS location table `seq_product_irods_locations`
 
 ### Fixed
 
